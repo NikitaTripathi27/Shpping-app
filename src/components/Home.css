@@ -1,0 +1,65 @@
+
+.parent-header{
+    margin-left: 25%;
+    padding: 5px;
+    /* background-color: rgb(154, 186, 246); */
+  
+}
+.head{
+  cursor: pointer;
+}
+.hero {
+    background-image: url("../images/shopping.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    left:0%;
+    right: 0%;
+    top:1%;
+    bottom:5%;
+  }
+  
+  .head-title{
+    text-align: center;
+  }
+  .category{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+  }
+ .container{
+
+  background-color: rgb(249, 252, 71);
+ }
+
+@media screen and (max-width: 600px) {
+  .parent-head {
+    display: flex;
+    flex-direction: row;
+  }
+  .parent-header{
+    margin-left: 0%;
+    padding:0rem;
+   
+  }
+  .child-header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .child-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .txt{
+    width: 80vw;
+    padding-bottom: 2rem !important;
+    padding-top: 1rem !important;
+  }
+}
